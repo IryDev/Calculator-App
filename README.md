@@ -28,7 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
+#### Light theme
+<img width="1440" alt="irydev frontendmentor calculator app" src="https://github.com/IryDev/Calculator-App/assets/86270481/89a4e7b3-b326-43dc-af35-2a9342a62fee">
+
+##### Dark theme
 <img width="1432" alt="irydev frontendmentor calculator app" src="https://github.com/IryDev/Calculator-App/assets/86270481/ede56ab2-c084-45e1-bb63-af7115de427a">
+<img width="1440" alt="irydev frontendmentor calculator app" src="https://github.com/IryDev/Calculator-App/assets/86270481/2a5ec834-b904-4b59-b838-8fc421c934ad">
 
 ### Links
 
