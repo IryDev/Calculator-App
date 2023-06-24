@@ -1,0 +1,34 @@
+html,
+body,
+div,
+span,
+h1, h2, h3, h4, h5, h6,
+p,
+a,
+img,
+ul, ol,
+li,
+form,
+label,
+input,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  transition: .5s;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  transition: .5s;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}

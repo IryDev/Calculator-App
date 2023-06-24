@@ -1,0 +1,25 @@
+body {
+  font-family: "JetBrains Mono", monospace;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.calculator {
+  background-color: #ecf0f3;
+  padding: 1rem;
+  border-radius: 30px;
+  box-shadow: inset 5px 5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+  display: grid;
+  grid-template-columns: repeat(4, 68px);
+  user-select: none;
+}

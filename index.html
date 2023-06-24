@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IryDev | Calculator App</title>
+    <link rel="stylesheet" href="./dist/style.css">
+    <link rel="icon" href="./images/favicon-32x32.png">
+</head>
+
+<body>
+    <main>
+
+        <div class="container">
+
+            <div class="switch-container">
+                <input type="checkbox" id="theme-switch">
+                <label for="theme-switch" class="switch"></label>
+            </div>
+
+            <div class="calculator">
+                <input type="text" placeholder="0" class="output">
+                <button onclick="resetCalcul()">C</button>
+                <button onclick="del()">DEL</button>
+                <button onclick="display('%')">%</button>
+                <button onclick="display('/')">/</button>
+                <button onclick="display('7')">7</button>
+                <button onclick="display('8')">8</button>
+                <button onclick="display('9')">9</button>
+                <button onclick="display('*')">*</button>
+                <button onclick="display('4')">4</button>
+                <button onclick="display('5')">5</button>
+                <button onclick="display('6')">6</button>
+                <button onclick="display('-')">-</button>
+                <button onclick="display('1')">1</button>
+                <button onclick="display('2')">2</button>
+                <button onclick="display('3')">3</button>
+                <button onclick="display('+')">+</button>
+                <button onclick="display('.')">.</button>
+                <button onclick="display('0')">0</button>
+                <button class="equal" onclick="calculate()">=</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Challenge by <a href="">Frontend Mentor</a> Coded by <a href="https://irydev.github.io/CV">IryDev</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

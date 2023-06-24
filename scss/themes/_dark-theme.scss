@@ -1,0 +1,56 @@
+@media (prefers-color-scheme: dark) {
+  body.dark-mode {
+    background-color: #353e4a;
+
+    .calculator {
+      background: linear-gradient(145deg, #39424f, #303843);
+      box-shadow: 30px 30px 60px #252b34, -30px -30px 60px #455160;
+    }
+
+    .calculator input {
+      background: linear-gradient(145deg, #39424f, #303843);
+      box-shadow: 7px 7px 14px #272d36, 7px 7px 14px #434f5e;
+    }
+
+    .calculator button {
+      background: linear-gradient(145deg, #39424f, #303843);
+      box-shadow: 5px 5px 10px #29303a, -5px -5px 10px #414c5a;
+    }
+
+    .calculator button:active {
+      box-shadow: inset 5px 5px 10px #29303a, inset -5px -5px 10px #414c5a;
+    }
+
+    footer {
+      box-shadow: 5px 5px 10px #29303a, -5px -5px 10px #414c5a;
+    }
+  }
+}
+
+
+body.dark-mode {
+    background-color: #353e4a;
+
+    .calculator {
+      background: linear-gradient(145deg, #39424f, #303843);
+      box-shadow: 30px 30px 60px #252b34, -30px -30px 60px #455160;
+    }
+
+    .calculator input {
+      background: linear-gradient(145deg, #39424f, #303843);
+      box-shadow: 7px 7px 14px #272d36, 7px 7px 14px #434f5e;
+    }
+
+    .calculator button {
+      background: linear-gradient(145deg, #39424f, #303843);
+      box-shadow: 5px 5px 10px #29303a, -5px -5px 10px #414c5a;
+    }
+
+    .calculator button:active {
+      box-shadow: inset 5px 5px 10px #29303a, inset -5px -5px 10px #414c5a;
+    }
+
+    footer {
+      box-shadow: 5px 5px 10px #29303a, -5px -5px 10px #414c5a;
+    }
+  }

@@ -1,0 +1,21 @@
+
+.calculator input {
+  grid-column: span 4;
+  height: 70px;
+  width: 260px;
+  background-color: #ecf0f3;
+  box-shadow: inset -5px -5px 12px #ffffff,
+    inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  text-align: end;
+  margin: 1rem auto;
+  padding: 2rem;
+  font-size: 2rem;
+  color: #3eb3a9;
+}
+::placeholder {
+  color: #3eb3a98d;
+}
